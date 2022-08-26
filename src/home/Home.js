@@ -60,10 +60,10 @@ export default function Home(){
         
           <Row className="bio" >
             <Col xs={3} className=''>
-            <h3>Biography</h3>
-            <h4>Name : Elijah Kiragu</h4>
+            <h2>Biography</h2><br/>
+            <h4>Name : Elijah Kiragu</h4><br/>
+            <h4>Phone: 0717277631</h4><br/>
             <h4>Email:<small>kiraguelijah@yahoo.com</small> </h4>
-            <h4>Phone: 0717277631</h4>
             <br/>
             <a href="https://docs.google.com/document/d/1nBZ3nlXS5tX8mvWsfc4-VKTbznFEU5FgLt-Nn4W7cpg/edit?usp=sharing" target="blank"><Button resume-btn >My Resume</Button></a>
             <br/><br/>
@@ -71,9 +71,10 @@ export default function Home(){
             <Col xs={9} className='bioinfo' >
               <row>
                 <Col xs={12}>
-                  <p>I am graduate of Egerton University, where I did Bachelor of Science degree (Physics, Chemistry and Mathematics combination) for two years then majored in Physics with a minor in Mathematics. I then joined teaching as Physics and Chemistry teacher where I gained invaluable skills such as: effective communication, leardership, presentation, imaginative thinking and organization among others. </p>
+                  <p>I am a graduate of Egerton University, where I did Bachelor of Science degree (Physics, Chemistry and Mathematics combination) for two years then majored in Physics with a minor in Mathematics. </p>
+                  <p>I then joined teaching as Physics and Chemistry teacher where I gained invaluable skills such as:<span className="bio-soft-skills"> effective communication, leardership, presentation, imaginative thinking and organization </span> among others. </p>
                   <p>I then left teaching and joined Moringa School where I did Software Development. I graduated as a full-stack web developer.</p>
-                  <p>I am skilled in React, JavaScript, Angular, Typescript, Python/Flask, Python/Django, SQL databases and Solidity/web3.</p><br/>
+                  <p>I am skilled in <span className="bio-skills">React, JavaScript, Angular, Typescript, Python/Flask, Python/Django, SQL databases and Solidity/web3</span>.</p><br/>
                 </Col>
               </row>
              

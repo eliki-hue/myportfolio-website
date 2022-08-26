@@ -51,7 +51,7 @@ background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(254, 24
 background: -webkit-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
 background: -o-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
 background: -ms-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,0.8) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: linear-gradient(0deg, rgba(254,244,240,0.3) 0%, rgba(255,99,51,0.8) 24%, rgba(254,167,149,1) 86%, rgba(252,241,254,0.3) 100%);
+background: linear-gradient(0deg, rgba(219, 42, 19, 0.8) 0%, rgba(255,99,51,0.8) 24%, rgba(254,167,149,1) 86%, rgba(219, 42, 19, 0.8) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', endColorstr='#fcf1fe', GradientType=1 );
 
   }
@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', end
     background-color: #f5f5f5;
 }
 .myname {
-    color: rgb(224, 235, 19,0.7);
+    color: rgb(224, 235, 19,0.85);
     /* font-family: ; */
 }
 .bio-histo{
@@ -199,10 +199,20 @@ li {
 }
 
 .bio Button{
-    background-color: white;
-    color: rgb(20, 111, 242);
+    /* background-color: white; */
+    color: white;
     font-weight: bolder;
+    font-size: larger;
     /* margin-top: 3rem; */
+    background: rgba(226,40,71,1);
+background: -moz-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,40,71,1)), color-stop(100%, rgba(80,110,230,1)));
+background: -webkit-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+background: -o-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+background: linear-gradient(0deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', endColorstr='#506ee6', GradientType=1 );
+
 }
 .bio Button:hover{
     /* background-color: rgb(131, 230, 131); */
@@ -213,7 +223,7 @@ background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,40,
 background: -webkit-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
 background: -o-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
 background: -ms-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
+background: linear-gradient(180deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', endColorstr='#506ee6', GradientType=1 );
 }
 .dot{
@@ -248,8 +258,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
 .bio-fluid{
     background-color: rgb(20, 111, 242);
     color: white;
+    /* font-family: 'DM Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+
     margin-top:10px;
     /* opacity: 0.8; */
+}
+.bio-fluid p{
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size: larger;
+}
+.bio-soft-skills{
+    font-style: italic;
+    color:burlywood;
+}
+.bio-skills{
+    font-style: italic;
+    /* color:black; */
+    color:burlywood;
+    font-size: larger;
 }
 
 .card-section{
