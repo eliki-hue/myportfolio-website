@@ -1,0 +1,7 @@
+Navbar{
+    color: blueviolet;
+}
+.me-auto {
+    display: flex;
+    flex-wrap: wrap;
+}
