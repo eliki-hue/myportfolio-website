@@ -76,22 +76,13 @@ export default function Home(){
                   <p>I am skilled in React, JavaScript, Angular, Typescript, Python/Flask, Python/Django, SQL databases and Solidity/web3.</p><br/>
                 </Col>
               </row>
-              <row className='bio-histo '>
-                
-                <Col >
-                  2014<br/><br/>
-                  <div className="dot"></div><div className="line"></div></Col>
-                <Col >2019<br/><br/><div className="dot"></div><div className="line"></div></Col>
-                <Col >2020<br/><br/><div className="dot"></div><div className="line"></div></Col>
-                <Col >2021<br/><br/><div className="dot"></div><div className="line"></div></Col>
-                <Col >2022<br/><br/><div className="dot"></div><div className="line"></div></Col>
-              </row>
+             
               <row className='bio-histo'>
-              <Col > <p>High school certificate</p></Col>
-                <Col ><p>Graduated with Bachelor of Science degree ( Physics and  Mathematics) </p></Col>
-                <Col ><p>Started working as Physics and Chemistry high school teacher</p></Col>
-                <Col ><p>Left teaching and joined Moringa School</p></Col>
-                <Col ><p>Graduated with Software Development certificate </p></Col>
+              <Col > 2014<br/><br/><div className="dot"></div><div className="line"></div><p>High school certificate</p></Col>
+                <Col >2019<br/><br/><div className="dot"></div><div className="line"></div><p>Graduated with Bachelor of Science degree ( Physics and  Mathematics) </p></Col>
+                <Col >2020<br/><br/><div className="dot"></div><div className="line"></div><p>Started working as Physics and Chemistry high school teacher</p></Col>
+                <Col >2021<br/><br/><div className="dot"></div><div className="line"></div><p>Left teaching and joined Moringa School</p></Col>
+                <Col >2022<br/><br/><div className="dot"></div><div className="line"></div><p>Graduated with Software Development certificate </p></Col>
               </row>
               
               </Col> 
