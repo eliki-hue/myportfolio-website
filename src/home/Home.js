@@ -13,6 +13,10 @@ import myimage from '../images/my-clear-image.png'
 import python from '../images/python-logo.png'
 import JS from '../images/js-logo.png'
 import html from '../images/html-logo.png'
+import carditem from './CardItems'
+import CardItems from "./CardItems";
+import Biography from "./Biography";
+import Services from "./services/Services";
 
 
 export default function Home(){
@@ -53,47 +57,15 @@ export default function Home(){
       </Container>
       <div className="container outer-parent">
       
+     <Biography/>
+     <Services/>
      
      
      
-      <Container fluid className="bio-fluid ">
-        
-          <Row className="bio" >
-            <Col xs={3} className=''>
-            <h2>Biography</h2><br/>
-            <h4>Name : Elijah Kiragu</h4><br/>
-            <h4>Phone: 0717277631</h4><br/>
-            <h4>Email:<small>kiraguelijah@yahoo.com</small> </h4>
-            <br/>
-            <a href="https://docs.google.com/document/d/1nBZ3nlXS5tX8mvWsfc4-VKTbznFEU5FgLt-Nn4W7cpg/edit?usp=sharing" target="blank"><Button resume-btn >My Resume</Button></a>
-            <br/><br/>
-            </Col>  
-            <Col xs={9} className='bioinfo' >
-              <row>
-                <Col xs={12}>
-                  <p>I am a graduate of Egerton University, where I did Bachelor of Science degree (Physics, Chemistry and Mathematics combination) for two years then majored in Physics with a minor in Mathematics. </p>
-                  <p>I then joined teaching as Physics and Chemistry teacher where I gained invaluable skills such as:<span className="bio-soft-skills"> effective communication, leardership, presentation, imaginative thinking and organization </span> among others. </p>
-                  <p>I then left teaching and joined Moringa School where I did Software Development. I graduated as a full-stack web developer.</p>
-                  <p>I am skilled in <span className="bio-skills">React, JavaScript, Angular, Typescript, Python/Flask, Python/Django, SQL databases and Solidity/web3</span>.</p><br/>
-                </Col>
-              </row>
-             
-              <row className='bio-histo'>
-              <Col > 2014<br/><br/><div className="dot"></div><div className="line"></div><p>High school certificate</p></Col>
-                <Col >2019<br/><br/><div className="dot"></div><div className="line"></div><p>Graduated with Bachelor of Science degree ( Physics and  Mathematics) </p></Col>
-                <Col >2020<br/><br/><div className="dot"></div><div className="line"></div><p>Started working as Physics and Chemistry high school teacher</p></Col>
-                <Col >2021<br/><br/><div className="dot"></div><div className="line"></div><p>Left teaching and joined Moringa School</p></Col>
-                <Col >2022<br/><br/><div className="dot"></div><div className="line"></div><p>Graduated with Software Development certificate </p></Col>
-              </row>
-              
-              </Col> 
-          </Row>
-          
-      </Container>
 
       <Container className="">
         <Row>
-          <Col xs={12}>
+          <Col >
         <div className="flip-box">
           <div className="flip-box-inner">
             <div className="flip-box-front">
@@ -120,147 +92,13 @@ export default function Home(){
         </div>
         </Col>
         </Row>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      
-{/* 
-      <Row >
-      <Col>
-      <Card style={{margin: '10px',width: '18rem'}}>
-        <Card.Img variant="top" src={bus} />
-        
-        <Card.Footer>
-          <li className="text-muted">Frontend sAFIRI</li>
-        </Card.Footer>
-      </Card>
-      
-        </Col>
-      <Col>
-      <Card style={{margin: '10px',width: '18rem'}}>
-        <Card.Img variant="top" src={bus} />
-        
-        <Card.Footer>
-          <li className="text-muted">Frontend sAFIRI</li>
-        </Card.Footer>
-      </Card>
-      
-        </Col>
-      <Col xs={12} xl={4}>
-      <Card style={{margin: '10px',width: '18rem'}}>
-        <Card.Img variant="top" src={bus} />
-        
-        <Card.Footer>
-          <li className="text-muted">Frontend sAFIRI</li>
-        </Card.Footer>
-      </Card> */}
-      
-        {/* </Col>
-      </Row> */}
+      <br/><br/>
+
 
       <Row >
-        <div className="col-md-3 col-sm-12 text-center  justify-content-center card-section">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-            
-              <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={myimage} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card> 
-            </div>
-            <div className="flip-box-back">
-            <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={bus} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card>
-            
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="col-md-3 col-sm-12 text-center  justify-content-center card-section">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-            
-              <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={myimage} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card> 
-            </div>
-            <div className="flip-box-back">
-            <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={bus} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card>
-            
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="col-md-3 col-sm-12 text-center  justify-content-center m-15px ">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-            
-              <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={myimage} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card> 
-            </div>
-            <div className="flip-box-back">
-            <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={bus} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card>
-            
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="col-md-3 col-sm-12 text-center  justify-content-center m-15px ">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-            
-              <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={myimage} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card> 
-            </div>
-            <div className="flip-box-back">
-            <Card style={{margin: '10px',width: '18rem'}}>
-              <Card.Img variant="top" src={bus} />
-              
-              <Card.Footer>
-                <li className="text-muted">Frontend sAFIRI</li>
-              </Card.Footer>
-            </Card>
-            
-            </div>
-          </div>
-        </div>
-        </div>
+        <CardItems myimage={require('../images/my-clear-image.png')} bus={require('./static/media/bus.jpg')}/>
+        <CardItems myimage={require('../images/my-clear-image.png')} bus={require('./static/media/bus.jpg')}/>
+        <CardItems myimage={require('../images/my-clear-image.png')} bus={require('./static/media/bus.jpg')}/>
       </Row>
         </Container>  
         </div>

@@ -1,0 +1,36 @@
+.services h1 {
+    text-align: center;
+    margin-top: 4rem;
+
+}
+.services-cards {
+    /* background-color: white; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: center;
+    justify-content:space-evenly;
+    
+
+}
+.services-cards h3 {
+    text-align: center;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+    margin: 10px;
+    width: 18rem;
+    background:white;
+    border:white;
+
+   }
+
+.card-parent :hover{
+    scale: 1.05;
+}
+h3 :hover {
+    transform: scale(-1.5);
+}
