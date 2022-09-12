@@ -1,6 +1,7 @@
 import React from 'react'
-import ServicesCard from './ServicesCard'
 import "./Services.css"
+import ServicesCard from './ServicesCard'
+
 
 function Services() {
   return (

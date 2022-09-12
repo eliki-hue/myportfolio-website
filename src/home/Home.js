@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 import Button from 'react-bootstrap/Button';
-import bus from './static/media/bus.jpg'
+// import bus from './static/media/bus.jpg'
 import CardGroup from 'react-bootstrap/CardGroup';
 import myimage from '../images/my-clear-image.png'
 import python from '../images/python-logo.png'
@@ -17,6 +17,7 @@ import carditem from './CardItems'
 import CardItems from "./CardItems";
 import Biography from "./Biography";
 import Services from "./services/Services";
+import Portfolio from "./portfolio/Portfolio";
 
 
 export default function Home(){
@@ -59,11 +60,12 @@ export default function Home(){
       
      <Biography/>
      <Services/>
+     <Portfolio/>
      
      
      
 
-      <Container className="">
+      {/* <Container className="">
         <Row>
           <Col >
         <div className="flip-box">
@@ -100,7 +102,7 @@ export default function Home(){
         <CardItems myimage={require('../images/my-clear-image.png')} bus={require('./static/media/bus.jpg')}/>
         <CardItems myimage={require('../images/my-clear-image.png')} bus={require('./static/media/bus.jpg')}/>
       </Row>
-        </Container>  
+        </Container>   */}
         </div>
       </>
         
