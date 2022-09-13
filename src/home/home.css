@@ -1,5 +1,7 @@
 body {
     background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
 }
 .outer-parent{
     background-color: #f5f5f5;

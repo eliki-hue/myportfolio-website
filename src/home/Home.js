@@ -40,7 +40,6 @@ export default function Home(){
         <ul>
           
           <li><h4>React</h4></li>
-          <span><li><h4>JavaScript</h4></li></span>
           <li><h4>Python</h4></li>
           
           
