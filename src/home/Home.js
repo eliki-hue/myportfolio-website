@@ -18,7 +18,7 @@ import CardItems from "./CardItems";
 import Biography from "./Biography";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
-import ContactUs from "./footer/Contact";
+import Footer from "./footer/Footer";
 
 export default function Home() {
   return (
@@ -58,11 +58,13 @@ export default function Home() {
         <Biography />
         <Services />
         <Portfolio />
-        <ContactUs/>
+       
+        
         
 
 
       </div>
+      <Footer/>
     </>
   );
 }
