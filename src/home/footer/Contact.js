@@ -26,12 +26,14 @@ const ContactUs = () => {
 
   return (
     <>
-    <p>{status}</p>
+    <p style={{color:'green'}}>{status}</p>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" required/>
       <label>Email</label>
       <input type="email" name="user_email" required />
+      <label>Subject</label>
+      <input type="text" name="subject" required/>
       <label>Message</label>
       <textarea name="message" required/>
       <button type="submit" className='contact-btn ' value="Send" >Send Message</button>
