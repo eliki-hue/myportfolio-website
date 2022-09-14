@@ -6,11 +6,14 @@ const Footer = () => {
   return (
     <div className='container-fluid footer'>
         <div className='row footer-sub'>
+          
             <div className='col'>
+            <h2>Send Message</h2>
                 <ContactUs/>
             </div>
             <div className='col'>
-            <ContactUs/>
+            <h2>Get in Touch</h2>
+            
             </div>
             
            <br/>

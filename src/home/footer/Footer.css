@@ -14,18 +14,35 @@
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    height: 80%;
     padding:1rem;
-    background-color: azure;
+    background-color: white;
 }
 form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width:100%;
+    font-size: larger;
+
+    
+}
+.contact-btn {
+    background-color: blue;
+    width: fit-content;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;    
+    border-radius: 5rem;
+
 }
 .footer-bottom {
     justify-content: center;
     text-align: center;
     margin-top: 2rem;
     color: white;
+}
+input {
+    height: 2;
 }
