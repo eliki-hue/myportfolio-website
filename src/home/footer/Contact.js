@@ -11,7 +11,7 @@ const ContactUs = () => {
 
     emailjs.sendForm('service_iv4g50e', 'template_o0gt4ap', form.current, 'sQQgLC14Rgr5kC5EI')
       .then((result) => {
-          console.log(result.text);
+          console.log(result);
           if(result.text =='OK'){
             
             setStatus("Message sent successfully")
@@ -21,6 +21,7 @@ const ContactUs = () => {
           console.log(error.text);
           setStatus(error.text)
       });
+      e.target.reset()
   };
 
   return (
