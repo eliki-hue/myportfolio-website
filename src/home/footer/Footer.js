@@ -4,16 +4,19 @@ import ContactUs from "./Contact";
 
 const Footer = () => {
   return (
-    <div className='container-fluid footer bg-dark'>
+    <div className='container-fluid footer '>
         <div className='row footer-sub '>
           
             <div className='col '>
-            <h2 className='text-center'>Send Message</h2>
+            <h2 className="">Send Message</h2>
                 <ContactUs/><br/>
             </div>
-            <div className='col text-center '>
-            <h2>Get in Touch</h2>
-            <p>Phone: 0717277631</p>
+            <div className='col'>
+            
+              <div className='footer-in-touch'>
+              <h2 style={{marginLeft:"3rem",marginBottom:"14px"}}>Get in Touch</h2>
+              <div className='footer-in-touch-inner'>
+              <p>Phone: 0717277631</p>
             <p>Email: kiraguelijah@yahoo.com</p><br/>
             <h3>Connect</h3>
             <div className="row ">
@@ -40,6 +43,10 @@ const Footer = () => {
                 </div>  
             
             </div>
+              </div>
+            
+              </div>
+            
             </div>
             
            <br/>

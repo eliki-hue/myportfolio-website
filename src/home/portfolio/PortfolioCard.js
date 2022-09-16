@@ -4,15 +4,15 @@ import Card from 'react-bootstrap/Card';
 
 function PortfolioCard({icon, tag, description}) {
   return (
-    <div className='card-parent' >
-         <Card className='card' >
-            <div style={{width:'16rem', margin:'1rem',border:'none', height:'100%'}}><Card.Img className='img' variant="top" src={icon} /></div>
-        
+    <div className="card-parent">
+      <div className="card mb-4 mt-4 border-0">
+        <img className="img" variant="top" src={icon} />
+
         <h3>{tag}</h3>
         {/* <Card.Footer>
           <li className="text-muted">{description}</li>
         </Card.Footer> */}
-      </Card>
+      </div>
     </div>
   )
 }
