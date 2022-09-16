@@ -26,6 +26,7 @@ const ContactUs = () => {
 
   return (
     <>
+    
     <p style={{color:'green'}}>{status}</p>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>

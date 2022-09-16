@@ -1,9 +1,10 @@
 body {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     justify-content: center;
     align-items: center;
 }
 .outer-parent{
+    /* margin: -1rem; */
     background-color: #f5f5f5;
 }
 .parent {
@@ -39,10 +40,8 @@ box-shadow: 1px 0px 7px -1px rgba(0,0,0,0.75); */
     flex-wrap: wrap;
     height: 100%;
     margin-top: -60px;
-    /* background-image: url("myportfolio/src/images/my-clear-image.png"); */
-    /* background-color:rgba(229, 229, 229, 0.4); */
     background-size :100%;
-    /* margin: 60px; */
+    
 }
 .intro-text ul {
     
@@ -62,21 +61,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', end
   ul li {
     float: left;
     margin-left: 3rem;
-    /* padding:10px; */
-
-
-    /* font-size: x-large; */
     color:black;
-    /* background-color:rgb(41, 58, 188) ; */
-    /* background: rgba(254,244,240,1);
-background: -moz-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(254,244,240,1)), color-stop(44%, rgba(255,99,51,1)), color-stop(71%, rgba(254,167,149,1)), color-stop(100%, rgba(252,241,254,1)));
-background: -webkit-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -o-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: linear-gradient(4deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', endColorstr='#fcf1fe', GradientType=1 ); */
-
+    
   }
 .myimage {
     display: flex;
@@ -88,33 +74,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', end
     height: 80%;
     /* padding: 100px; */
     justify-items: left;
-    /* border-radius: 50%; */
-    /* background-color:white; */
-    /* display: block; */
-  /* margin: 30px; */
-  /* margin-top: 70px; */
-  align-content: left;
-  /* margin-right: auto; */
-  /* width: 100%; */
-  border: none;
-  /* border-radius: 156px 150px 200px 200px; */
-/* -moz-border-radius: 156px 150px 200px 200px; */
-/* -webkit-border-radius: 156px 150px 200px 200px; */
-/* border: 28px ridge #f0e4f0; */
-
-/* background: rgba(226,40,71,1);
-background: -moz-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,40,71,1)), color-stop(100%, rgba(80,110,230,1)));
-background: -webkit-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -o-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', endColorstr='#506ee6', GradientType=1 ); */
+    align-content: left;
+    border: none;
 }
 .myimage:hover {
     transform: scaleX(-1);
-    /* margin-top: 20px; */
-  }
+}
 .myimagecol:hover{
     transform: matrix;
 
@@ -151,21 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
 .intro-text h1{
     font-size: 2vw;
     color: black;
-    /* opacity: 0.2; */
-    
-    /* border-radius: 50%; */
-    
-    /* background-color:rgb(41, 58, 188) ;
-    background: rgba(254,244,240,1);
-background: -moz-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(254,244,240,1)), color-stop(44%, rgba(255,99,51,1)), color-stop(71%, rgba(254,167,149,1)), color-stop(100%, rgba(252,241,254,1)));
-background: -webkit-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -o-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-background: linear-gradient(45deg, rgba(254,244,240,1) 0%, rgba(255,99,51,1) 44%, rgba(254,167,149,1) 71%, rgba(252,241,254,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', endColorstr='#fcf1fe', GradientType=1 ); */
-
-}
+    }
 
 .intro-text h3{
     font-size: 5vw;
@@ -188,108 +139,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef4f0', end
     color: rgb(224, 235, 19,0.85);
     /* font-family: ; */
 }
-.bio-histo{
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-hr {
-    margin: auto 20px;
-    border: 1.5px solid rgb(201, 20, 20);
-  }
-  
-li {
-    font-size: x-large;
-}
-
-.bio Button{
-    /* background-color: white; */
-    color: white;
-    font-weight: bolder;
-    font-size: larger;
-    /* margin-top: 3rem; */
-    background: rgba(226,40,71,1);
-background: -moz-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,40,71,1)), color-stop(100%, rgba(80,110,230,1)));
-background: -webkit-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -o-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: linear-gradient(0deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', endColorstr='#506ee6', GradientType=1 );
-
-}
-.bio Button:hover{
-    /* background-color: rgb(131, 230, 131); */
-    font-weight:bolder;
-    background: rgba(226,40,71,1);
-background: -moz-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,40,71,1)), color-stop(100%, rgba(80,110,230,1)));
-background: -webkit-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -o-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-background: linear-gradient(180deg, rgba(226,40,71,1) 0%, rgba(80,110,230,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', endColorstr='#506ee6', GradientType=1 );
-}
-.dot{
-    padding: 4px;
-    background-color: white;
-    width: 2px;
-    border-radius: 50%;
-    align-items: center;
-    display: absolute;
-}
-.line{
-    padding: 0.5px;
-    display: absolute;
-    background-color: white;
-    width: 100%;
-    /* justify-content: right; */
-    /* margin-left: 10px; */
-    border-radius: 50%;
-    align-items: center;
-    margin-top:-4.5px;
-
-}
-.bio-histo Col{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-}
-.bio-histo p{
-    /* border-right: groove; */
-    margin: 5px;
-}
-.bio-fluid{
-    background-color: rgb(20, 111, 242);
-    color: white;
-    /* font-family: 'DM Sans', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
-
-    margin-top:5rem;
-    /* opacity: 0.8; */
-}
-.bio-fluid p{
-    /* font-family: 'DM Sans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
-    /* font-weight: bold; */
-    font-size: larger;
-}
-.bio-soft-skills{
-    font-style: italic;
-    color:burlywood;
-}
-.bio-skills{
-    font-style: italic;
-    /* color:black; */
-    color:burlywood;
-    font-size: larger;
-}
 
 .card-section{
     /* display: flex; */
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* background-color:rgb(238, 82, 113); */
     color: rgb(43, 43, 227);
     justify-content:space-evenly;
 }
@@ -303,113 +156,16 @@ Card {
 }
 .img1 {
     width: 80%;
-    /* background-color: black; */
-    /* opacity: 0.8; */
-}
-
-
-
-.whatWeDo{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    
-}
-
+ }
+.biography-section{
+    padding-top: 2rem;
+    }
 .icon {
     display:flex;
     text-align: center;
     justify-content: center;
-    /* margin-left: 20px; */
-    /* margin-bottom: 30px; */
-   
-}
-
-#whatAboutRow {
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    /* margin-left: 120px; */
 }
 
 
 
-.hidden {
-    text-align: center;
-    display: none;
-}
-#what1, #what2, #what3 {
-    text-align: center;
-}
-.content {
-display: flex;
-position: relative;
-width: 240px;
-height: 200px;
-margin: 50px;
-margin-left: 10px;
-text-align: center;
-background-color: black;
-background-size:cover;
 
-
-
-}
-.content div{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border: 5px solid white;
-    padding: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    margin-right: 10px;
-    color: white;
-    display: none;
-    
-}
-
-.flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    /* perspective: 1000px; Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style:preserve-3d;
-  }
-
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    /* height: 100%; */
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side */
-  .flip-box-front {
-    background-color: #bbb;
-    /* color: black; */
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    /* background-color: dodgerblue; */
-    color: white;
-    transform: rotateY(180deg);
-  }

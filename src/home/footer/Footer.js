@@ -4,14 +4,14 @@ import ContactUs from "./Contact";
 
 const Footer = () => {
   return (
-    <div className='container-fluid footer'>
-        <div className='row footer-sub'>
+    <div className='container-fluid footer bg-dark'>
+        <div className='row footer-sub '>
           
-            <div className='col'>
-            <h2>Send Message</h2>
-                <ContactUs/>
+            <div className='col '>
+            <h2 className='text-center'>Send Message</h2>
+                <ContactUs/><br/>
             </div>
-            <div className='col'>
+            <div className='col text-center '>
             <h2>Get in Touch</h2>
             <p>Phone: 0717277631</p>
             <p>Email: kiraguelijah@yahoo.com</p><br/>
@@ -21,16 +21,20 @@ const Footer = () => {
                   <p class="social text-muted mb-0 pb-0 bold-text">
                     {" "}
                     <span class="mx-2">
-                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                      <a href='' target='blank'><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      
                     </span>{" "}
                     <span class="mx-2">
-                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                      <a href='https://www.linkedin.com/in/elijah-kiragu-366720227/' target="blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                     
                     </span>{" "}
                     <span class="mx-2">
-                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <a href='' target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      
                     </span>{" "}
                     <span class="mx-2">
-                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <a href='' target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      
                     </span>{" "}
                    </p>
                 </div>  

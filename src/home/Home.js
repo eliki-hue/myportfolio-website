@@ -15,7 +15,7 @@ import JS from "../images/js-logo.png";
 import html from "../images/html-logo.png";
 import carditem from "./CardItems";
 import CardItems from "./CardItems";
-import Biography from "./Biography";
+import Biography from "./biograph/Biography";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
@@ -54,8 +54,9 @@ export default function Home() {
           </Row>
         </Container>
       </Container>
-      <div className="container outer-parent">
-        <Biography />
+      <div className="container-fluid outer-parent">
+      <div className="container outer-parent"> 
+        <div className="biography-section" ><Biography /></div>
         <Services />
         <Portfolio />
        
@@ -63,6 +64,7 @@ export default function Home() {
         
 
 
+      </div>
       </div>
       <Footer/>
     </>
