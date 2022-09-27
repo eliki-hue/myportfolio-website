@@ -1,0 +1,14 @@
+.single-progect-details{
+
+}
+.project-info{
+    margin: 4-rem;
+    /* color: red; */
+    padding: 2rem;
+    border: none;
+    /* flex-wrap: wrap; */
+    --webkit-box-shadow: 0px 1px 20px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 20px -5px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 20px -5px rgba(0,0,0,0.1);
+
+}

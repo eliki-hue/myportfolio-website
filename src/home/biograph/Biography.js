@@ -11,7 +11,7 @@ import myimage from '../../images/my-clear-image.png'
 function Biography() {
   return (
     <div>
-         <Container fluid className="bio-fluid ">
+         <Container className="bio-fluid ">
         
         <Row className="bio mt=4" >
           <div  className='col-sm-3 col-md-3' >
@@ -22,7 +22,7 @@ function Biography() {
                            
             </div>
             
-            <h4>Name : Elijah Kiragu</h4>
+            <h4 className='mt-4'>Name : Elijah Kiragu</h4>
           <h4>Phone: 0717277631</h4>
           <h4>Email:<small>kiraguelijah@yahoo.com</small> </h4>
             
@@ -37,7 +37,13 @@ function Biography() {
             <row>
               <div >
                 <br/><br/>
-                           <p>I am skilled in <span className="bio-skills">React, JavaScript, Angular, Typescript, Python/Flask, Python/Django, SQL databases and Solidity/web3</span>.</p><br/>
+                <p>
+                Recent Software Engineering graduate with fundamental 
+                knowledge of software design,  development, 
+                and testing. Seeking to utilize broad educational background with excellent analytical, 
+                technical, and programming skills to thrive as an entry-level software engineer. 
+                </p>
+                           <p>I am skilled in <span className="bio-skills">React, JavaScript, Angular, Typescript, Python programming, Flask, Django, SQL database and Solidity/web3</span>.</p><br/>
               </div>
             </row>
            

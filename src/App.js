@@ -7,7 +7,7 @@ import Services from './home/services/Services';
 function App() {
   return (
     <>
-      <Navbar/>
+     
       <Home/>
       {/* <Services/> */}
     

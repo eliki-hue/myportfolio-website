@@ -19,54 +19,37 @@ import Biography from "./biograph/Biography";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
+import Navigation from "../navbar/Navbar";
+import SingleProject from "./SingleProject/SingleProject";
 
 export default function Home() {
   return (
     <>
       <Container fluid className="parent">
-        <Container className="intro">
-          <Row className="intro-row">
-            <Col xs={8} className="intro-text">
-              <div>
-                {/* <h1>Hi!</h1> */}
-                <h3 className="text-mut.ed">
-                  I am <span className="myname">Elijah Kiragu</span>
-                </h3>
-                <h4 className="text-mutned">Full-stack web developer </h4>
-                <ul>
-                  <li>
-                    <h4>React</h4>
-                  </li>
-                  <li>
-                    <h4>Python</h4>
-                  </li>
-                </ul>
-              </div>
-            </Col>
-            <Col xs={4} className="myimagecol">
-              <div className="itro-image-parent">
-                <br />
-                <br />
-                <br />
-                <img className="myimage" src={myimage} />
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <div className="text-light">
+          {" "}
+          <Navigation />
+        </div>
+        <div className=" container-fluid mr-0 ml-0  intro">
+          <div className="row">
+             </div>
+
+          
+        </div>
       </Container>
       <div className="container-fluid outer-parent">
-      <div className="container outer-parent"> 
-        <div className="biography-section" ><Biography /></div>
-        <Services />
-        <Portfolio />
-       
-        
-        
-
-
+        <div className="container outer-parent ">
+          <div className="biography-section">
+            <h1 className="text-center mt-4">About Me</h1>
+            <Biography />
+          </div>
+          <Services />
+          <Portfolio />
+        </div>
+        <SingleProject img1={require("../images/web-designing-big.png")} img2={require("../images/web-development-icon2-removebg-preview.png")} img3={require("../images/graphic-design-removebg-preview.png")} category="website" client="Elijah" date="tyui" url="www.url.com" description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/>
+         
       </div>
-      </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

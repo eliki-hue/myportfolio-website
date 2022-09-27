@@ -7,9 +7,16 @@
     -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
 }
+.bio-info {
+    --webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+
+}
 .bio-histo{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
   
@@ -45,7 +52,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
 }
 .dot{
     padding: 4px;
-    background-color: black;
+    background-color: white;
+    /* background-color: black; */
     width: 2px;
     border-radius: 50%;
     align-items: center;
@@ -54,7 +62,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
 .line{
     padding: 0.5px;
     display: absolute;
-    background-color: black;
+    background-color: white;
+    /* background-color: black; */
     width: 100%;
     /* justify-content: right; */
     /* margin-left: 10px; */
@@ -74,12 +83,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
     margin: 5px;
 }
 .bio-fluid{
-    background-color:white;
-    /* color: white; */
+    /* background-color:white; */
+    /* background-color: hsl(240, 100%, 30%); */
+    background-color:#1DA1F2;
+    
+    
+    
+    color: white;
     /* font-family: 'DM Sans', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 
-    margin-top:5rem;
+    /* margin-top:5rem; */
     /* opacity: 0.8; */
 }
 .bio-fluid p{
@@ -88,18 +102,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
     /* font-weight: bold; */
     font-size: larger;
 }
-.img-fluid {
-    background-color: rgb(0, 0, 0,.1);
-}
+
 .bio-soft-skills{
     font-style: italic;
-    color:burlywood;
+    /* color:burlywood; */
+    
 }
 .bio-skills{
     font-style: italic;
-    /* color:black; */
-    color:burlywood;
-    font-size: larger;
+    color:black;
+    /* color:burlywood; */
+    /* font-size: larger; */
 }
 .bio-image-div {
     margin-left: 10px;
@@ -108,7 +121,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
     max-width: 100%;
     max-height: 14rem;
     margin-top: 1rem;
-    background-color: rgb(0, 0, 0,0.17);
+    background-color: #f7f7f7;
+    /* background-color: rgb(0, 0, 0,0.17); */
 }
 
 

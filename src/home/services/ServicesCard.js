@@ -9,9 +9,9 @@ function ServicesCard({ icon, tag, description }) {
         <img className="img" variant="top" src={icon} />
 
         <h3>{tag}</h3>
-        {/* <Card.Footer>
-          <li className="text-muted">{description}</li>
-        </Card.Footer> */}
+        <div>
+          <div className="text-muted">{description}</div>
+        </div>
       </div>
     </div>
   );

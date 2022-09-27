@@ -50,6 +50,7 @@ const Footer = () => {
             </div>
             
            <br/>
+           
         </div>
         <div className='container-fluid footer-bottom'>
             <h5>All Rights Reserved</h5>

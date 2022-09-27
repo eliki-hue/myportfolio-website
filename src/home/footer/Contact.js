@@ -27,7 +27,7 @@ const ContactUs = () => {
   return (
     <>
     
-    <p style={{color:'green'}}>{status}</p>
+    <p className="text-center status">{status}</p>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" required/>
@@ -39,6 +39,7 @@ const ContactUs = () => {
       <textarea name="message" required/>
       <button type="submit" className='contact-btn ' value="Send" >Send Message</button>
     </form>
+    {/* <p className="text-center status">{status}</p> */}
     </>
   );
 };
