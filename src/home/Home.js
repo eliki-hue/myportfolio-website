@@ -1,4 +1,4 @@
-import { from } from "@apollo/client";
+// import { from } from "@apollo/client";
 import React from "react";
 import "./home.css";
 import Container from "react-bootstrap/Container";
