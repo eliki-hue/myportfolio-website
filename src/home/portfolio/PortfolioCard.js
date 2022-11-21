@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import Card from 'react-bootstrap/Card';
 
-function PortfolioCard({icon, tag, description}) {
+function PortfolioCard({icon, tag,}) {
   return (
     <div className="card-parent">
       <div className="card mb-4 mt-4 border-0">
@@ -13,6 +13,7 @@ function PortfolioCard({icon, tag, description}) {
           <li className="text-muted">{description}</li>
         </Card.Footer> */}
       </div>
+      
     </div>
   )
 }

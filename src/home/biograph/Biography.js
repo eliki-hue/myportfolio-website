@@ -39,7 +39,7 @@ function Biography() {
                 <br/><br/>
                 <p>
                 Recent Software Engineering graduate with fundamental 
-                knowledge of software design,  development, 
+                knowledge in software design,  development, 
                 and testing. Seeking to utilize broad educational background with excellent analytical, 
                 technical, and programming skills to thrive as an entry-level software engineer. 
                 </p>

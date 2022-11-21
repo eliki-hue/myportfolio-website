@@ -45,8 +45,9 @@ export default function Home() {
           </div>
           <Services />
           <Portfolio />
+          {/* <SingleProject/> */}
         </div>
-        <SingleProject img1={require("../images/web-designing-big.png")} img2={require("../images/web-development-icon2-removebg-preview.png")} img3={require("../images/graphic-design-removebg-preview.png")} category="website" client="Elijah" date="tyui" url="www.url.com" description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/>
+        {/* <SingleProject img1={require("../images/web-designing-big.png")} img2={require("../images/web-development-icon2-removebg-preview.png")} img3={require("../images/graphic-design-removebg-preview.png")} category="website" client="Elijah" date="tyui" url="www.url.com" description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/> */}
          
       </div>
       <Footer />
