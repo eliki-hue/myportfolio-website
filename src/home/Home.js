@@ -21,14 +21,27 @@ import Portfolio from "./portfolio/Portfolio";
 import Footer from "./footer/Footer";
 import Navigation from "../navbar/Navbar";
 import SingleProject from "./SingleProject/SingleProject";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function Home() {
   return (
     <>
+    <Navbar bg="primarjy" id="nav" className="sticky-top" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Elijah</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#biography">About me</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
       <Container fluid className="parent">
         <div className="text-light">
           {" "}
-          <div id="nav"><Navigation /></div>
+          {/* <div id="nav" className="sticky-top"><Navigation /></div> */}
         </div>
         <div className=" container-fluid mr-0 ml-0  intro">
           <div className="row">

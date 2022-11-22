@@ -9,8 +9,16 @@ body {
     background-color: #f8f9fa;
 
 }
-#nav{
-    
+Navbar{
+    color: blueviolet;
+    position: sticky;
+}
+.me-auto {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sticky-top{
+    background-color: black;
 }
 .parent {
     /* background-image:url(../images/portfolio-header-back-1.jpg); */
