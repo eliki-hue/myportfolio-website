@@ -49,7 +49,7 @@ function Portfolio() {
          category="website" client="Elijah" date="tyui" url="www.url.com" description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/></a>
       
         
-      <a href='/singleproject2' > <PortfolioCard icon={require("../../images/portfolio/safari.png")} 
+      <a href='/singleproject2' > <PortfolioCard icon={require("../../images/singleProject/safiri-home.png")} 
       tag='Safiri' 
         description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/></a>     
               
@@ -61,7 +61,7 @@ function Portfolio() {
           <a href='/singleproject4' > <PortfolioCard icon={require("../../images/portfolio/neighbourhood.png")} tag='neighbourhood' description=''/></a>
           <a href='/singleproject5' > <PortfolioCard icon={require("../../images/portfolio/news-express.png")} tag='news-express' description=''/></a>
           <a href='/singleproject6' ><PortfolioCard icon={require("../../images/web-development-icon2-removebg-preview.png")} tag='Pizza-inn' description=''/></a>
-          <a href='/singleproject7' > <PortfolioCard icon={require("../../images/graphic-design-removebg-preview.png")} tag='eliki blog' description=''/></a>
+          {/* <a href='/singleproject7' > <PortfolioCard icon={require("../../images/graphic-design-removebg-preview.png")} tag='eliki blog' description=''/></a> */}
         {/* <PortfolioCard icon={require("../../images/web-designing-big.png")} tag='Web Design' description=''/> */}
         {/* <PortfolioCard icon={require("../../images/web-development-icon2-removebg-preview.png")} tag='Web Development' description=''/> */}
         

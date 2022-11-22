@@ -28,7 +28,7 @@ export default function Home() {
       <Container fluid className="parent">
         <div className="text-light">
           {" "}
-          <Navigation />
+          <div id="nav"><Navigation /></div>
         </div>
         <div className=" container-fluid mr-0 ml-0  intro">
           <div className="row">
@@ -39,18 +39,17 @@ export default function Home() {
       </Container>
       <div className="container-fluid outer-parent">
         <div className="container outer-parent ">
-          <div className="biography-section">
+          <div className="biography-section" id="biography">
             <h1 className="text-center mt-4">About Me</h1>
             <Biography />
           </div>
-          <Services />
-          <Portfolio />
-          {/* <SingleProject/> */}
-        </div>
-        {/* <SingleProject img1={require("../images/web-designing-big.png")} img2={require("../images/web-development-icon2-removebg-preview.png")} img3={require("../images/graphic-design-removebg-preview.png")} category="website" client="Elijah" date="tyui" url="www.url.com" description="lorhuyyyy yyyyyyyy yyyyyyy ggg nnn yrrnm jnfj kkklk irk yyyyy"/> */}
+          <div id="services"><Services /></div>
+          <div id="portfolio"><Portfolio /></div>
          
+        </div>
+        
       </div>
-      <Footer />
+      <div id="contact"><Footer /></div>
     </>
   );
 }

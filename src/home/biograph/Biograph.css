@@ -64,7 +64,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
     display: absolute;
     background-color: white;
     /* background-color: black; */
-    width: 100%;
+    width: 125%;
     /* justify-content: right; */
     /* margin-left: 10px; */
     border-radius: 50%;
@@ -77,6 +77,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22847', end
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+    /* background-color: red; */
+    
 }
 .bio-histo p{
     /* border-right: groove; */

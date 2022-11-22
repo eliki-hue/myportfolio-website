@@ -24,13 +24,13 @@ function SingleProject({img1, img2, img3, category, client, date, url, descripti
                     </ol>
                     <div className="carousel-inner   ">
                         <div className="carousel-item active">
-                        <img className="d-block w-" src={img1} alt="First slide"/>
+                        <img className="d-block w- carousel-img" src={img1} alt="First slide"/>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-" src={img2} alt="Second slide"/>
+                        <img className="d-block w- carousel-img" src={img2} alt="Second slide"/>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-" src={img3} alt="Third slide"/>
+                        <img className="d-block w- carousel-img" src={img3} alt="Third slide"/>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -49,7 +49,7 @@ function SingleProject({img1, img2, img3, category, client, date, url, descripti
                     <p><strong>Category: </strong>{category}</p>
                     <p><strong>Client: </strong>{client}</p>
                     <p><strong>Project date: </strong>{date}</p>
-                    <p><strong>Project URL: </strong><a href={url}>{url}</a></p>
+                    <p><strong>Visit:  </strong><a href={url}>Live Link</a></p>
                 </div>
                 <div className='project-description p-2'>
                     <h2>Description</h2>

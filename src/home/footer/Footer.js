@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import ContactUs from "./Contact";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Footer = () => {
   return (
@@ -41,8 +43,16 @@ const Footer = () => {
                     </span>{" "}
                    </p>
                 </div>  
+                
             
-            </div>
+            </div> 
+
+            <Nav className="me-auto">
+            <Nav.Link href="#biography">About me</Nav.Link>
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
               </div>
             
               </div>
